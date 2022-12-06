@@ -1,7 +1,110 @@
-.nav {
+/*----- Dokument Design -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 2000px;
+}
+/*----- Dokument Design -----*/
+
+
+
+/*----- Navigation Design -----*/
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 7% 20px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
     background-color: black;
 }
 
-.logo {
-    width: 50px;
+nav .logo {
+    width: 300px;
 }
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+/*----- Navigation Design -----*/
+
+
+
+/*----- Navigation Animation -----*/
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height:3px;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: auto;
+    transition: 0.75s ease;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+/*----- Navigation Animation -----*/
+
+
+
+.bakgrundsbild img {
+    width: 100%;
+    height: auto;
+    position: static;
+}
+
+.bakgrundsbild h1 {
+    background-color: black;
+    position: fixed;
+    z-index: 98;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.rubrik {
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    padding: 40px 7% 45px 7%;
+    display: flex;
+    justify-content: center;
+    z-index: 98;
+    background-color: black;
+}
+
+.rubrik h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
