@@ -8,7 +8,9 @@
 
 body {
     background-color: black;
-    height: 2000px;
+    color: #c8c8c8;
+    height: auto;
+    margin-bottom: 250px;
 }
 /*----- Dokument Design -----*/
 
@@ -40,7 +42,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #c8c8c8;
     font-size: 25px;
 }
 /*----- Navigation Design -----*/
@@ -53,7 +55,7 @@ nav ul li a::after{
     width: 0%;
     height:3px;
     border-radius: 2px;
-    background: rgb(255, 255, 255);
+    background: rgb(200, 200, 200);
     display: block;
     margin: auto;
     transition: 0.75s ease;
@@ -82,14 +84,12 @@ nav ul li a:hover::after{
 
 
 
-
-
 .rubrik {
     width: 100%;
     position: sticky;
     bottom: 0;
     left: 0;
-    padding: 40px 7% 45px 7%;
+    padding: 35px 7% 40px 7%;
     display: flex;
     justify-content: center;
     z-index: 98;
@@ -97,13 +97,15 @@ nav ul li a:hover::after{
 }
 
 .rubrik h1 {
-    color: #ffffff;
     font-size: 50px;
     font-weight: 100;
 }
 
-
-
+.innehåll p {
+    font-size: 25px;
+    margin: 20px 15% 20px 15%;
+    line-height: 35px;
+}
 
 
 
