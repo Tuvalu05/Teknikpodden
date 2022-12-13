@@ -106,3 +106,20 @@ nav ul li a:hover::after{
     margin: 20px 15% 20px 15%;
     line-height: 35px;
 }
+
+
+.avsnitt {
+    display: flex;
+    margin: 0 5% 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.avsnitt img {
+    aspect-ratio: 1/1;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: 50px 50px;
+}
