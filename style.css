@@ -107,7 +107,6 @@ nav ul li a:hover::after{
     line-height: 35px;
 }
 
-
 .avsnitt {
     display: flex;
     margin: 0 5% 0;
@@ -122,4 +121,26 @@ nav ul li a:hover::after{
     object-fit: cover;
     border-radius: 50px;
     margin: 50px 50px;
+}
+
+.avsnitt p {
+    margin-top: -20px;
+    text-align: center;
+}
+
+.medier {
+    display: flex;
+    margin: 40px 5% 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.medier div {
+    margin: 0 3% 0;
+    text-align: center;
+}
+
+.medier img {
+    width: 100px;
+    margin: 0 35% 0;
 }
