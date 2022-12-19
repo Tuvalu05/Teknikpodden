@@ -133,6 +133,9 @@ nav ul li a:hover::after{
     border-radius: 50px;
     margin: 50px 50px;
 }
+/*----- Avsnitt Design -----*/
+
+
 
 .avsnitt p {
     margin-top: -20px;
